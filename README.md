@@ -16,7 +16,7 @@ The report is organized as a guided analytical journey:
 
 ### 01 — Landing
 
-<p align="center"><img src="./Screenshots/Landing%20Pag.jpg" alt="Sysco Sales & Operations Analytics — Landing Page" width="900"></p>
+<p align="center"><img src="./Screenshots/Landing%20Page.jpg" alt="Sysco Sales & Operations Analytics — Landing Page" width="900"></p>
 
 The entry point to the report, introducing the analytical solution and providing navigation into the main business areas.
 
