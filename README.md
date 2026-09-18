@@ -8,7 +8,7 @@ The project combines **Power Query, DAX, dimensional data modeling, time intelli
 
 ---
 
-## 🖼️ Dashboard Experience
+## Dashboard Screenshots
 
 The report is organized as a guided analytical journey:
 
@@ -328,7 +328,7 @@ This structure separates descriptive entities from transactional measures and su
 
 ---
 
-## 📈 Dashboard Features
+## Dashboard Experience
 
 ### Sales Performance
 
