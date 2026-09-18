@@ -433,7 +433,7 @@ Customer, country, employee, category, and product contribution can be compared 
 ```text
 Sysco-Dashboard/
 │
-├── Dataset/
+├── Data/
 │   ├── dim_category.xlsx
 │   ├── dim_customer.xlsx
 │   ├── dim_date.xlsx
