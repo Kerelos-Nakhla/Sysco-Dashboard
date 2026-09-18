@@ -16,31 +16,31 @@ The report is organized as a guided analytical journey:
 
 ### 01 — Landing
 
-<p align="center"><img src="./Screenshots/Landing%20Page.jpg" alt="Sysco Sales & Operations Analytics — Landing Page" width="900"></p>
+<p align="center"><img src="./Dashboard%20Previews/Landing%20Page.jpg" alt="Sysco Sales & Operations Analytics — Landing Page" width="900"></p>
 
 The entry point to the report, introducing the analytical solution and providing navigation into the main business areas.
 
 ### 02 — Sales & Orders
 
-<p align="center"><img src="./Screenshots/Sales%20%26%20Orders%20Page.png" alt="Sysco Sales & Operations Analytics — Sales and Orders" width="900"></p>
+<p align="center"><img src="./Dashboard%20Previews/Sales%20%26%20Orders%20Page.png" alt="Sysco Sales & Operations Analytics — Sales and Orders" width="900"></p>
 
 The core performance view covering sales, orders, freight, order trends, shipping activity, and service-level analysis.
 
 ### 03 — Categories & Products
 
-<p align="center"><img src="./Screenshots/Categories%20%26%20Products%20Page.png" alt="Sysco Sales & Operations Analytics — Categories and Products" width="900"></p>
+<p align="center"><img src="./Dashboard%20Previews/Categories%20%26%20Products%20Page.png" alt="Sysco Sales & Operations Analytics — Categories and Products" width="900"></p>
 
 A product-performance view covering category contribution, product rankings, inventory context, and product-level performance.
 
 ### 04 — Customers & Employees & Suppliers
 
-<p align="center"><img src="./Screenshots/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="Sysco Sales & Operations Analytics — Customers Employees and Suppliers" width="900"></p>
+<p align="center"><img src="./Dashboard%20Previews/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="Sysco Sales & Operations Analytics — Customers Employees and Suppliers" width="900"></p>
 
 A stakeholder-performance view connecting customer contribution, employee sales performance, and supplier/product coverage.
 
 ### 05 — Data Model
 
-<p align="center"><img src="./Screenshots/Model.png" alt="Sysco Sales & Operations Analytics — Power BI Data Model" width="900"></p>
+<p align="center"><img src="./Dashboard%20Previews/Model.png" alt="Sysco Sales & Operations Analytics — Power BI Data Model" width="900"></p>
 
 The Power BI model uses a dimensional structure that separates transactional facts from reusable business dimensions.
 
