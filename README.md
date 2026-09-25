@@ -24,6 +24,13 @@ The **SYSCO Sales & Operations Analytics Dashboard** is an enterprise B2B analyt
 
 ---
 
+
+## Business Questions & Key Analytical Takeaways
+- **Average order value:** $1.27M across 830 orders implies an average of approximately **$1,524.50 per order**, providing a baseline for comparing customer, category, and sales-representative performance.
+- **Order composition:** 2,154 line items across 830 orders equals approximately **2.6 line items per order**, showing why order-level and product-level analysis answer different operational questions.
+- **Commercial analysis:** Combining order, product, category, customer, employee, supplier, and date dimensions supports analysis of sales concentration, product mix, discount behavior, and supplier performance.
+- **Operational focus:** The dashboard moves from total sales to category/product contribution, then customer and employee performance, and finally supplier-level fulfillment context.
+
 ## Dashboard Visual Tour & Storytelling
 
 ### 1. Landing
