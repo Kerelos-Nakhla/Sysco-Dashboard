@@ -1,100 +1,141 @@
 # 🍽️ SYSCO Sales & Operations Analytics Dashboard
 
-<p align="center">
-  <b>Wholesale Foodservice Distribution, Order Fulfillment & Supply Chain Performance Intelligence</b>
+<p align=center>
+  <b>Enterprise Wholesale Foodservice Distribution, Order Fulfillment & Supply Chain Performance Intelligence</b>
 </p>
 
-<p align="center">
+<p align=center>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/DAX-Commercial_Analytics-blue?style=for-the-badge" alt="DAX" />
+  <img src="https://img.shields.io/badge/DAX-Time_Intelligence_&_YoY-blue?style=for-the-badge" alt="DAX" />
   <img src="https://img.shields.io/badge/Data_Modeling-Star_Schema-success?style=for-the-badge" alt="Star Schema" />
-  <img src="https://img.shields.io/badge/Supply_Chain-Distribution-orange?style=for-the-badge" alt="Supply Chain" />
+  <img src="https://img.shields.io/badge/Fulfillment-95.54%25_On--Time-orange?style=for-the-badge" alt="Fulfillment" />
+  <img src="https://img.shields.io/badge/Sales_Growth-+158.71%25_YoY-brightgreen?style=for-the-badge" alt="YoY Growth" />
 </p>
 
 ---
 
 ## 📌 Executive Overview
-The **SYSCO Sales & Operations Analytics Dashboard** is an enterprise B2B analytics platform developed in Power BI for foodservice distribution. Spanning hundreds of corporate accounts, diverse product categories, regional sales representatives, and global suppliers, the dashboard delivers granular operational insight into order velocities, product line margins, and fulfillment efficiency.
+The **SYSCO Sales & Operations Analytics Dashboard** is an enterprise-grade commercial intelligence system built in Power BI to monitor B2B foodservice wholesale operations. Combining transactional line items, logistics fulfillment timelines, category catalog structures, and multi-tier commercial accounts, the system provides cross-functional visibility into revenue velocity, customer acquisition, operational fulfillment, and Year-over-Year (YoY) growth trajectories.
 
-### 📊 Core Key Performance Indicators (KPIs)
-- 💰 **Net Sales Volume:** **$1,265,339.00** across verified fulfillment records
-- 📦 **Total Orders Processed:** **830 commercial delivery orders**
-- 🛒 **Distinct Order Line Items:** **2,154 product line entries**
-- 🏷️ **Average Order Value (AOV):** **$1,524.50 / order**
-- 📋 **Order Basket Density:** **2.60 line items / order**
-- 🏢 **Commercial Dimensions:** B2B restaurant and institutional customer accounts, international food suppliers, category managers, and regional sales representatives
-
----
-
-## 🎯 Business Problem & Objectives
-1. 🥩 **Category Contribution & Margin Optimization:** Identify high-revenue vs. high-margin food categories (Beverages, Dairy, Meat/Poultry, Produce) to optimize warehouse allocations and promotional pricing.
-2. 👥 **Sales Representative Velocity:** Track individual account executive sales contributions, average discount concessions, and repeat order cycles.
-3. 🚚 **Supplier Fulfillment Reliability:** Monitor supplier order volumes and delivery lead times to mitigate supply chain bottlenecks and stockouts.
-4. 🏪 **Customer Lifetime Value & Churn Prevention:** Detect ordering frequency drop-offs among institutional accounts to protect recurring contract revenue.
+### 📊 Portfolio Key Performance Indicators (KPIs)
+- 💰 **Gross Commercial Revenue:** **,265,339.00** across verified fulfillment records
+- 📈 **Portfolio YoY Growth Rate:** **+158.71%** vs. prior year baseline (89.10K target benchmark)
+- 📦 **Total Orders Fulfilled:** **830 commercial delivery orders**
+- 🛒 **Distinct Order Line Items:** **2,154 line transactions** (Average basket density: **2.60 lines/order**)
+- 🏷️ **Average Order Value (AOV):** **,524.50** per purchase order
+- 🚚 **Total Freight Logistics Cost:** **4,942.69** (Average shipping transit: **7.45 days**, displayed rounded to **8 days**)
+- ⏱️ **On-Time Delivery Rate:** **95.54%** (793 orders delivered on or before required date; only 37 late shipments)
+- 🏢 **Enterprise Ecosystem:** **91 corporate client accounts**, **77 distinct products** across **8 categories**, **29 global suppliers**, and **9 sales representatives**
 
 ---
 
-## 💡 In-Depth Data Analysis & Business Insights
-- 💵 **Order Value Concentration:** $1.27M across 830 orders establishes an average ticket of **$1,524.50**, with the top 20% of commercial accounts generating over 65% of net revenues.
-- 📦 **Line Item Composition:** An average of **2.6 line items per delivery order** indicates high-value bulk ordering patterns; optimizing multi-line bundling offers significant margin expansion.
-- 🎯 **Category Margin Divergence:** High-volume staple categories (Dairy, Produce) exhibit compressed margins (~14–18%), while specialty frozen and imported beverages command margins exceeding 32%.
-- 🤝 **Sales Rep Concession Variance:** Discount rates vary between 2.1% and 7.8% across representatives without proportional volume increases, highlighting the need for strict discounting governance.
+## 📈 Year-over-Year (YoY) & Temporal Growth Analysis
+
+The system incorporates robust time intelligence DAX modeling () to capture multi-year commercial trajectories:
+
+| Calendar Year | Net Sales ($) | Orders | SPLY Baseline ($) | Nominal YoY % | Period Scope & Dynamics |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **1996** | **07,692.70** | 152 | *Baseline* | — | Operations commenced July 4, 1996 (H2 baseline only) |
+| **1997** | **17,022.43** | 408 | 07,692.70 | **+197.08%** | First full 12-month operational cycle; rapid market expansion |
+| **1998** | **40,623.87** | 270 | 17,022.43 | -28.59%* | Data window closes May 6, 1998 (~4.2 operating months) |
+
+> 🔍 **Like-for-Like Run-Rate Growth (Jan 1 – May 6 Window):**  
+> Comparing identical date intervals across years proves accelerating operational momentum:
+> - **1997 (Jan 1 – May 6):** **00,761.06**
+> - **1998 (Jan 1 – May 6):** **40,623.87**
+> - **Like-for-Like YoY Run-Rate:** **+119.48%** (commercial volume more than doubled over the same period).
+> - **Unfiltered Portfolio Gauge Benchmark:** **Total Sales .27M** vs. **SPLY Target 89.10K** yields an exact **+158.71%** portfolio outperformance.
+
+---
+
+## 🧮 Core DAX Measures & Formulas
+
+All business logic is encapsulated in dedicated tabular DAX measures:
+
+### 1. Revenue & Time Intelligence
+
+
+### 2. Operational & Supply Chain Metrics
+
+
+---
+
+## 🥩 Category, Product & Operational Performance
+
+### 1. Product Categories Performance
+- 🍹 **Beverages:** **67,868.18** (21.17% of revenue) — Leading category, driven by high-ticket imports
+- 🧀 **Dairy Products:** **34,507.28** (18.53% of revenue) — Core daily high-velocity staple
+- 🍖 **Meat/Poultry:** **63,022.36** (12.88% of revenue) — High average unit ticket items
+- 🍬 **Confections:** **67,357.23** (13.23% of revenue)
+- 🐟 **Seafood:** **31,261.74** (10.37% of revenue)
+- 🌾 **Grains/Cereals:** **5,744.59** (7.57% of revenue)
+- 🥫 **Condiments:** **06,047.08** (8.38% of revenue)
+- 🥦 **Produce:** **9,923.83** (7.90% of revenue)
+
+### 2. Top SKUs by Revenue
+1. 🍷 **Côte de Blaye:** **41,396.74** (Leading commercial beverage)
+2. 🌭 **Thüringer Rostbratwurst:** **0,368.67**
+3. 🧀 **Raclette Courdavault:** **0,977.85**
+4. 🧀 **Camembert Pierrot:** **6,825.50**
+5. 🥩 **Tarte au sucre:** **7,234.97**
+
+### 3. Logistics & Carrier Distribution
+- 🚚 **Speedy Express:** 326 orders (39.28%) | Average fulfillment: 7.2 days
+- 🚚 **United Package:** 255 orders (30.72%) | Average fulfillment: 7.6 days
+- 🚚 **Federal Shipping:** 249 orders (30.00%) | Average fulfillment: 7.7 days
 
 ---
 
 ## 🖼️ Dashboard Visual Tour & Storytelling
 
-### 1. Landing Page
-<p align="center">
-  <img src="./Dashboard%20Previews/Landing%20Page.jpg" alt="SYSCO Sales & Operations — Landing" width="95%">
+### 1. Landing & Navigation Hub
+High-impact visual portal providing quick navigation across executive verticals with real-time operational status.
+<p align=center>
+  <img src="./Dashboard%20Previews/Landing%20Page.jpg" alt="SYSCO — Landing Hub" width="95%">
 </p>
 
-### 2. Sales & Orders Performance
-<p align="center">
-  <img src="./Dashboard%20Previews/Sales%20%26%20Orders%20Page.png" alt="SYSCO Sales & Operations — Sales & Orders" width="95%">
+### 2. Sales & Orders Performance Page
+Executive dashboard tracking revenue pacing, YoY % performance (+158.71%), carrier volumes, regional map distributions, and monthly sales trends.
+<p align=center>
+  <img src="./Dashboard%20Previews/Sales%20%26%20Orders%20Page.png" alt="SYSCO — Sales & Orders Performance" width="95%">
 </p>
 
-### 3. Category & Product Line Deep Dive
-<p align="center">
-  <img src="./Dashboard%20Previews/Categories%20%26%20Products%20Page.png" alt="SYSCO Sales & Operations — Categories & Products" width="95%">
+### 3. Categories & Products Deep Dive
+Catalog analytics breaking down SKU velocities, inventory reorder alerts, stock availability (69 active vs. 8 discontinued), and category revenue shares.
+<p align=center>
+  <img src="./Dashboard%20Previews/Categories%20%26%20Products%20Page.png" alt="SYSCO — Categories & Products" width="95%">
 </p>
 
 ### 4. Customers, Employees & Supplier Ecosystem
-<p align="center">
-  <img src="./Dashboard%20Previews/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="SYSCO Sales & Operations — Customers, Employees & Suppliers" width="95%">
+Stakeholder analysis correlating account volume concentrations, sales representative achievements, and international supplier lead reliability.
+<p align=center>
+  <img src="./Dashboard%20Previews/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="SYSCO — Stakeholders Ecosystem" width="95%">
 </p>
 
 ---
 
 ## 🏗️ Data Architecture & Star Schema
-The data model connects operational transactional records to comprehensive enterprise dimensions:
+The semantic model is engineered as a clean Star Schema optimized for performance and filter propagation:
 
-- **Fact Table:**
-  - `fact_sales` — Order details, quantity, unit price, discounts, freight charges, and transaction dates
-- **Dimension Tables:**
-  - `dim_order` — Order status, shipping method, and fulfillment milestones
-  - `dim_product` — SKU catalog, units in stock, reorder levels, and unit costs
-  - `dim_category` — Foodservice classification (Beverages, Condiments, Confections, Dairy, Meat, Produce, Seafood)
-  - `dim_customer` — Commercial accounts, restaurant chains, geographic regions
-  - `dim_employee` — Regional sales reps, managers, and territories
-  - `dim_supplier` — Wholesale vendors, countries of origin, contact points
-  - `dim_date` — Fiscal calendar hierarchy (Year, Quarter, Month, Week)
 
-### 📐 Model Representation
-<p align="center">
+
+### 📐 Physical Star Schema Diagram
+<p align=center>
   <img src="./Dashboard%20Previews/Model.png" alt="SYSCO Sales & Operations Analytics — Power BI Data Model" width="95%">
 </p>
 
 ---
 
-## 🛠️ Tools & Technologies
-- 📊 **Power BI Desktop:** Operational KPIs, category matrix, dynamic drill-throughs
-- 📐 **DAX Measures:** Net Sales, Margin %, Average Order Value (AOV), Discount Variance, and Customer Retention
-- 🧹 **Power Query (M):** ETL pipeline, schema normalization, type conversions
-- 📈 **Data Modeling:** Star Schema with 1-to-many bidirectional relationship management
+## 🛠️ Technology Stack & Methods
+- 📊 **Power BI Desktop & Service:** Dynamic KPI cards, gauge benchmarks, interactive geospatial mapping, and automated drill-throughs
+- 📐 **DAX (Data Analysis Expressions):** Time Intelligence (, ), dynamic ratio calculations, and filter context manipulation
+- 🧹 **Power Query (M):** Multi-table ETL, date dimension generation, data type casting, key harmonization
+- 📐 **Data Modeling:** Formal Star Schema with 1-to-many single-direction relationships to avoid circular filter traps
 
 ---
 
-## 📜 License & Author
-- **Author:** Kerelos Nakhla ([GitHub](https://github.com/Kerelos-Nakhla))
+## 📜 Author & Portfolio
+- **Author:** Kerelos Nakhla
+- **GitHub:** [@Kerelos-Nakhla](https://github.com/Kerelos-Nakhla)
+- **Portfolio:** [Kerelos Nakhla Portfolio](https://github.com/Kerelos-Nakhla/Portofolio)
 - **License:** MIT License
