@@ -208,13 +208,14 @@ Count Categories = COUNTROWS(dim_category)
 ### 1. Landing & Navigation Hub
 Executive portal enabling rapid navigation across operational domains with integrated status highlights.
 <p align="center">
-  <img src="./Dashboard%20Previews/Landing%20Page.jpg" alt="SYSCO Sales & Operations — Landing Hub" width="95%">
+  <img src="./Dashboard%20Previews/Landing%20Page.png" alt="SYSCO Sales & Operations — Landing Hub" width="95%">
 </p>
 
 ### 2. Sales & Orders Performance Page
 Executive dashboard featuring the **YoY % card (+158.71%)**, **Sales Performance Gauge ($1.27M actual vs. $489.10K target)**, carrier distributions, order map locations, and monthly timelines.
 <p align="center">
-  <img src="./Dashboard%20Previews/Sales%20%26%20Orders%20Page.png" alt="SYSCO Sales & Operations — Sales & Orders" width="95%">
+  <img src="./Dashboard%20Previews/1-%20Sales%20%26%20Orders%20Page.png" alt="SYSCO Sales & Operations — Sales & Orders Overview" width="95%">
+  <img src="./Dashboard%20Previews/2-%20Sales%20%26%20Orders%20Page.png" alt="SYSCO Sales & Operations — Sales & Orders Details" width="95%">
 </p>
 
 ### 3. Categories & Products Deep Dive
