@@ -221,18 +221,18 @@ Executive dashboard featuring the **YoY % card (+158.71%)**, **Sales Performance
 ### 3. Categories & Products Deep Dive
 Catalog analytics highlighting category market share, SKU sales rankings, stock status (69 active / 8 discontinued), and reorder alerts.
 <p align="center">
-  <img src="./Dashboard%20Previews/Categories%20%26%20Products%20Page.png" alt="SYSCO Sales & Operations — Categories & Products" width="95%">
+  <img src="https://raw.githubusercontent.com/Kerelos-Nakhla/Sysco-Dashboard/7076c7ea64287e7d25e3530fdba8f91961c4aeab/Dashboard%20Previews/Categories%20%26%20Products%20Page.png" alt="SYSCO Sales & Operations — Categories & Products" width="95%">
 </p>
 
 ### 4. Customers, Employees & Supplier Ecosystem
 Stakeholder management view assessing top enterprise accounts, sales rep quota attainment, and international supplier lead reliability.
 <p align="center">
-  <img src="./Dashboard%20Previews/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="SYSCO Sales & Operations — Customers, Employees & Suppliers" width="95%">
+  <img src="https://raw.githubusercontent.com/Kerelos-Nakhla/Sysco-Dashboard/7076c7ea64287e7d25e3530fdba8f91961c4aeab/Dashboard%20Previews/Customers%20%26%20Employees%20%26%20Suppliers.png" alt="SYSCO Sales & Operations — Customers, Employees & Suppliers" width="95%">
 </p>
 
 ### 5. Enterprise Star Schema Data Model
 <p align="center">
-  <img src="./Dashboard%20Previews/Model.png" alt="SYSCO Sales & Operations Analytics — Power BI Data Model" width="95%">
+  <img src="https://raw.githubusercontent.com/Kerelos-Nakhla/Sysco-Dashboard/7076c7ea64287e7d25e3530fdba8f91961c4aeab/Dashboard%20Previews/Model.png" alt="SYSCO Sales & Operations Analytics — Power BI Data Model" width="95%">
 </p>
 
 ---
